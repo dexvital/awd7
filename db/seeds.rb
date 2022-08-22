@@ -23,3 +23,12 @@ right away.
 </p>},
                 image_url: 'tree-of-life.jpg',
                 price: 24.95)
+
+Product.create!(title: 'Build Great Web APIs 2',
+                description:
+                  %{<p>
+<em>Robust, Reliable, and Resilient</em>
+Almost the same
+</p>},
+                image_url: 'tree-of-life.jpg',
+                price: 23.00)
