@@ -1,7 +1,6 @@
 require "test_helper"
 
-class OrderTest < ActiveSupport::TestCase
-
+class ChargeOrderJobTest < ActiveJob::TestCase
   # test "the truth" do
   #   assert true
   # end
