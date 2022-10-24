@@ -1,14 +1,21 @@
-<h1>Hello from Rails!</h1>
-<p>
-  It is now <%= @time %><br />
-  Time in one hour <%= @time_hour %>
-</p>
-<p>
-  <% @files.each do |file| %>
-    file name is: <%= file %><br />
-  <% end %>
-</p>
-<p>
-  Time to say
-  <%= link_to "Goodbye", say_goodbye_path %>!
-</p>
+<div>
+  <h1 class="my-5">Hello from Rails!</h1>
+  <p class="my-5">
+    It is now <%= @time %><br />
+    Time in one hour <%= @time_hour %>
+  </p>
+  <p class="my-5">
+    – Addition: <%= 1+2 %><br />
+    – Concatenation: <%= "cow" + "boy" %><br />
+    – Time in one hour: <%= 1.hour.from_now.localtime %>
+  </p>
+  <p class="my-5">
+    <% @files.each do |file| %>
+      file name is: <%= file %><br />
+    <% end %>
+  </p>
+  <p class="my-5">
+    Time to say
+    <%= link_to "Goodbye", say_goodbye_path, class: 'text-red-700' %>!
+  </p>
+</div>
