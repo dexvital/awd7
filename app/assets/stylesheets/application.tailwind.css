@@ -9,11 +9,12 @@
     px-3 py-2 mt-2 w-full
   }
 }
-/*
+
 @layer components {
-  .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
+  form input[type="submit"] { @apply
+    inline rounded-lg py-3 px-5 bg-green-600 text-white block font-medium
   }
 }
-*/
+
 @import 'actiontext.css';
+@import 'common.css';
